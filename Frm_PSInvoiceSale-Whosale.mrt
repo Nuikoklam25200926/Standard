@@ -1,10 +1,10 @@
 {
   "ReportVersion": "2022.1.4.0",
-  "ReportGuid": "a8e6fb433b3547698d788c964aa8e4e1",
+  "ReportGuid": "4f724846b62a41d398c0c9ed2f9b9912",
   "ReportName": "Frm_PSInvoiceSale",
   "ReportAlias": "Frm_PSInvoiceSale",
   "ReportCreated": "/Date(1582089004000+0700)/",
-  "ReportChanged": "/Date(1663337444000+0700)/",
+  "ReportChanged": "/Date(1663388147561+0700)/",
   "EngineVersion": "EngineV2",
   "CalculationMode": "Interpretation",
   "Script": "using System;\r\nusing System.Drawing;\r\nusing System.Windows.Forms;\r\nusing System.Data;\r\nusing Stimulsoft.Controls;\r\nusing Stimulsoft.Base.Drawing;\r\nusing Stimulsoft.Report;\r\nusing Stimulsoft.Report.Dialogs;\r\nusing Stimulsoft.Report.Components;\r\n\r\nnamespace Reports\r\n{\r\n    public class Frm_PSInvoiceSale : Stimulsoft.Report.StiReport\r\n    {\r\n        public Frm_PSInvoiceSale()        {\r\n            this.InitializeComponent();\r\n        }\r\n\r\n        #region StiReport Designer generated code - do not modify\r\n\t\t#endregion StiReport Designer generated code - do not modify\r\n    }\r\n}\r\n",
@@ -1262,7 +1262,7 @@
                       "Name": "CmpAddr",
                       "Guid": "0eed0aacfe9a45f394ae5141b241b125",
                       "CanGrow": true,
-                      "ClientRectangle": "0.05,0.63,10.45,1.74",
+                      "ClientRectangle": "0.05,0.63,10.29,1.74",
                       "Interaction": {
                         "Ident": "StiInteraction"
                       },
@@ -1275,6 +1275,10 @@
                       "Border": ";;;;;;;solid:Black",
                       "Brush": "solid:",
                       "TextBrush": "solid:Black",
+                      "TextOptions": {
+                        "WordWrap": true
+                      },
+                      "TextQuality": "Wysiwyg",
                       "Margins": {
                         "Left": 0.0,
                         "Right": 0.0,
